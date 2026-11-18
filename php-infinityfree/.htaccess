@@ -1,0 +1,9 @@
+Options -Indexes
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+<FilesMatch "\.(sql|log|env|local\.php)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>

@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "USR-0784615052",
+      "phone": "0784615052",
+      "password": "password123",
+      "role": "admin",
+      "credit": 85000,
+      "fullName": "Eliya Amos Mwakyusa (Admin)",
+      "createdAt": 1787679415680,
+      "isBlocked": false
+    },
+    {
+      "id": "USR-0755461242",
+      "phone": "0755461242",
+      "password": "password123",
+      "role": "feeder",
+      "credit": 15000,
+      "fullName": "Eliya Amos (Feeder Officer)",
+      "createdAt": 1787852215680,
+      "isBlocked": false
+    },
+    {
+      "id": "USR-0623033377",
+      "phone": "0623033377",
+      "password": "password123",
+      "role": "user",
+      "credit": 1200,
+      "fullName": "Pasikari Jackobo Pasikari",
+      "createdAt": 1789407415680,
+      "isBlocked": false
+    },
+    {
+      "id": "USR-0754112233",
+      "phone": "0754112233",
+      "password": "password123",
+      "role": "user",
+      "credit": 480,
+      "fullName": "Juma Hamisi Bakari",
+      "createdAt": 1788111415680,
+      "isBlocked": false
+    },
+    {
+      "id": "USR-0655234567",
+      "phone": "0655234567",
+      "password": "password123",
+      "role": "user",
+      "credit": 80,
+      "fullName": "Amina Rashid Said",
+      "createdAt": 1788543415680,
+      "isBlocked": false
+    },
+    {
+      "id": "USR-0711998877",
+      "phone": "0711998877",
+      "password": "pass123",
+      "role": "user",
+      "credit": 500,
+      "fullName": "Daudi John Mangi",
+      "createdAt": 1790271423800,
+      "isBlocked": false
+    }
+  ],
+  "requests": [],
+  "creditRequests": [],
+  "deposits": [
+    {
+      "id": "DEP-1784",
+      "userPhone": "0711998877",
+      "amount": 500,
+      "timestamp": 1790271423800,
+      "adminPhone": "0784615052",
+      "reference": "DEP-INIT-MUFTDRG8"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-MUFTDRGE-204",
+      "action": "USER_CREATED",
+      "actorPhone": "0711998877",
+      "actorRole": "user",
+      "targetPhone": "0711998877",
+      "targetName": "Daudi John Mangi",
+      "details": "Mtumiaji 0711998877 (Daudi John Mangi) amesajiliwa na kupewa salio TSh 500.",
+      "metadata": {
+        "initialCredit": 500,
+        "role": "user"
+      },
+      "timestamp": 1790271423806
+    }
+  ]
+}

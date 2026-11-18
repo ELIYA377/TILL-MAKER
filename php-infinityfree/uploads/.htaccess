@@ -1,0 +1,6 @@
+# Block all direct public HTTP access to uploaded documents
+Order allow,deny
+Deny from all
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
